@@ -90,3 +90,29 @@ a {
     border-radius: 30% / 50% 0;
 }
 
+.someText {
+    text-align: center;
+    font-size: 36px;
+    padding: 100px;
+    color: #1F2937;
+}
+
+.middle-top {
+    display: flex;
+    justify-content: center;
+    padding: 200px 300px;
+    padding-top: 0;
+    gap: 50px;
+    text-align: center;
+}
+
+.square {
+    border: 5px solid #3882F6;
+    max-width: 200px;
+    border-radius: 30px;
+}
+
+.text {
+    font-size: 18px;
+    color: rgb(109, 108, 108);
+}
