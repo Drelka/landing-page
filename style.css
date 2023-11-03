@@ -135,3 +135,31 @@ a {
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.bottom {
+    margin: 100px 300px;
+}
+
+.frame {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.actionTitle {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.actionDescription {
+    color: rgb(228, 228, 228);
+}
+
+.whiteBorder {
+    border: 3px solid #fff;
+}
