@@ -93,14 +93,14 @@ a {
 .someText {
     text-align: center;
     font-size: 36px;
-    padding: 100px;
+    padding: 50px;
     color: #1F2937;
 }
 
 .middle-top {
     display: flex;
     justify-content: center;
-    padding: 200px 300px;
+    padding: 100px 400px;
     padding-top: 0;
     gap: 50px;
     text-align: center;
@@ -116,3 +116,22 @@ a {
     font-size: 18px;
     color: rgb(109, 108, 108);
 }
+
+.middle-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quoteInfo {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
